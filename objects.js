@@ -61,7 +61,7 @@ for (let i = 0; i < loopitems.length; i++) {
 // === Opdracht 4 ===
 console.log('\nOpdracht 4');
 // Declareer een variabele met daarin een string die het product beschrijft. Gebruik hiervoor de properties productName en material uit het object.
-const productName = product.name;
+const productName = product.productName;
 // ---- Verwachte uitkomst:
 // "De Smeg Waterkoker is gemaakt van roestvrijstaal en kunststof"
 console.log(`De ${productName} is gemaakt van ${productMaterials}`);
